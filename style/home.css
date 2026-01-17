@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #1f2933;
+    padding: 15px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.nav-links li a:hover {
+    background-color: #3b82f6;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+    text-align: center;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.phone {
+    margin: 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.phone a {
+    color: #d40000;
+    text-decoration: none;
+}
+
+.phone2 {
+    display: inline-block;
+    background: #d40000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    
+}
+
+.services {
+    background: white;
+    padding: 30px 20px;
+}
+
+.services h2 {
+    margin-bottom: 15px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.services li {
+    margin: 8px 0;
+}
+
+footer {
+    background: #111;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.background {
+    background-image: url(../images/evakuatori.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.phonebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding-bottom: 290px;        
+}
+.services {
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 600px; 
+}
+
+.services ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.services li {
+    margin: 10px 0; /* spacing between items */
+}
+/* WhatsApp button styling */
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px; /* Space below phone2 button */
+    border-radius: 8px; /* Rounded edges like your button */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green on hover */
+}
+
